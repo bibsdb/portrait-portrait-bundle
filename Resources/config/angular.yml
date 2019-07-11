@@ -1,0 +1,8 @@
+assets:
+  js_prod:
+  - bundles/bibsdbportraitportrait/assets/build/bibsdbportraitportrait.js
+modules:
+  toolsModule:
+    files:
+      - bundles/bibsdbportraitportrait/apps/toolsModule/portrait-portrait-fake-editor.js
+apps:

@@ -1,0 +1,19 @@
+<div class="portrait-portrait" data-ng-style="{'background-color': slide.options.bgcolor, 'width': theStyle.width, 'height': theStyle.height, 'font-size': theStyle.fontsize, 'position': 'relative'}">
+  <img class="portrait-portrait--background-image" data-ng-show="slide.currentImage" data-ng-src="{{slide.currentImage}}" />
+  <div class="portrait-portrait--bodytext-wrapper">
+    <div class="portrait-portrait--bodytext-tile-1"></div>
+    <div class="portrait-portrait--bodytext-tile-2"></div>
+    <div class="portrait-portrait--bodytext-tile-3"></div>
+    <div class="portrait-portrait--bodytext-tile-4"></div>
+    <div class="portrait-portrait--bodytext-tile-5"></div>
+    <div class="portrait-portrait--bodytext-tile-6"></div>
+    <div class="portrait-portrait--title-wrapper">
+      <textarea auto-grow class="portrait-portrait--title has-placeholder" data-ng-trim="false" placeholder="Tilføj en titel" data-ng-model="slide.options.title" spellcheck="false" data-ng-style="{'color': slide.options.titlecolor}">
+      </textarea>
+    </div>
+    <div class="portrait-portrait--bodytext-wrapper-inner">
+      <textarea auto-grow class="portrait-portrait--bodytext has-placeholder" data-ng-trim="false" placeholder="Tilføj en brødtekst. Boksen udvider sig når du tilføjer tekst." data-ng-model="slide.options.bodytext" spellcheck="false" data-ng-style="{'color': slide.options.bodytextcolor}">
+      </textarea>
+    </div>
+  </div>
+</div>

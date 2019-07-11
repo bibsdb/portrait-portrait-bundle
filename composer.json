@@ -1,0 +1,12 @@
+{
+    "name": "bibsdb/portrait-portrait-bundle",
+    "description": "Bibsdb portrait-portrait template.",
+    "type": "symfony-bundle",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Bibsdb\\PortraitPortraitBundle\\": ""
+        }
+    }
+}
