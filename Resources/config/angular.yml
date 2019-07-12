@@ -4,5 +4,6 @@ assets:
 modules:
   toolsModule:
     files:
-      - bundles/bibsdbportraitportrait/apps/toolsModule/portrait-portrait-fake-editor.js
+      - bundles/bibsdbportraitportrait/apps/toolsModule/portrait-portrait-title-editor.js
+      - bundles/bibsdbportraitportrait/apps/toolsModule/portrait-portrait-bodytext-editor.js
 apps:
