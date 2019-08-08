@@ -2,6 +2,7 @@
     "name": "bibsdb/portrait-portrait-bundle",
     "description": "Bibsdb portrait-portrait template.",
     "type": "symfony-bundle",
+    "minimum-stability": "dev",
     "require": {
     },
     "autoload": {
